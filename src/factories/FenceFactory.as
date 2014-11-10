@@ -23,6 +23,12 @@ package factories
 			posistion.x = 20;
 			posistion.y = 20;
 			posistion.rotation = rotation;
+			
+			var fence:Entity = new Entity();
+			fence.add(display);
+			fence.add(posistion);
+			
+			return fence;
 		}
 		
 	}
